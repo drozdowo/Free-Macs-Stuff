@@ -1,0 +1,168 @@
+.RedeemPage {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.cklogo-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+}
+
+.dss {
+  width: 420px;
+  height: 44px;
+}
+
+.cklogo {
+  width: 80px;
+  height: 54px;
+}
+
+.winMsg {
+  font-family: "Gotham Medium", sans-serif;
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -0.5rem;
+  color: white;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+.prizeImg {
+  width: 192px;
+  height: 192px;
+  margin: 15px 0px 15px 0px;
+}
+
+.prizeName {
+  font-weight: bold;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+.prizeDesc {
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+}
+
+.redeemBy {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5rem 0px 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.logoTrain {
+  width: 388px;
+  height: 44px;
+}
+
+.redeemArea {
+  width: 100%;
+}
+
+.redeemed {
+  width: 100%;
+  background-color: red;
+  font-family: "Gotham Black", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5rem 0px 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.plu {
+  font-family: "Gotham Black", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5rem 0px 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.barcode {
+  width: 100%;
+  height: 100%;
+}
+
+.timer {
+  margin: 5px 0px 5px 0px;
+  font-size: 7rem;
+  text-align: center;
+  color: white;
+  font-family: "Gotham Black", sans-serif;
+  font-weight: bold !important;
+}
+
+.boringText {
+  font-family: "Gotham Light", Arial;
+  color: white;
+  font-weight: 900;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-align: left;
+  margin: 1.5rem auto 0px;
+  max-width: 24rem;
+  padding: 0px 1.5rem;
+}
+
+.backButton {
+  margin: 1rem auto 0px;
+  padding: 0.4rem 2rem;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgb(230, 45, 39);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  width: 288px;
+}
+
+.fineprint {
+  font-size: 0.55rem;
+  line-height: 0.7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 1rem 1.5rem;
+  margin: 0px;
+  word-spacing: 0.1rem;
+}
